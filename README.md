@@ -1,0 +1,3 @@
+El siguiente formulario esta diseñado a partir de una actividad propuesta en el Bootcamp realizado por la UNTREF en coordinación con el Puente Innova de Gral. La Madrid.
+
+El mismo consiste en un formulario de envió de datos ficticio, para una pagina de otorgamiento de créditos virtuales, en el cual se solicitan datos básicos para establecer un primer contacto con el interesado, para luego formalizar el mismo en una segunda instancia.
