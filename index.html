@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Simbolo.png" type="image/x-icon">
+    <title>InstaPet - Red Social para Mascotas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <header>
+    <h1>BIENVENIDO A CREDIEXPRESS</h1>
+  </header>
+  <body>
+    
+    <p>
+      CrediExpress es una solucion financiera, rapida y confiable a la hora de tomar un credito personal desde la comodidad de tu hogar.
+    </p>
+
+    <form
+      action="https://formsubmit.co/manuelleiva42@gmail.com"
+      method="post"
+    >
+      <label for="nombre_apellido">Nombre y Apellido:</label>
+      <input
+        type="text"
+        id="nombre_y_apellido"
+        name="nombre_y_apellido"
+        placeholder="Nombre y Apellido"
+        required
+      /><br /><br />
+
+      <label for="dni">N° D.N.I:</label>
+      <input
+        type="number"
+        id="dni"
+        name="dni"
+        placeholder="Numero de DNI"
+        required
+      /><br /><br />
+      <label for="domicilio">Domicilio:</label>
+      <input
+        type="text"
+        id="domicilio"
+        name="domicilio"
+        placeholder="Domicilio"
+        required
+      /><br /><br />
+
+      <label for="monto">Monto a Solicitar:</label>
+      <input
+        type="number"
+        id="monto"
+        name="monto"
+        placeholder="Monto a Solicitar"
+        pattern="{5,8}"
+        required
+      /><br /><br />
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" name="fechanacimiento" id="" placeholder="Fecha de Nacimiento">
+        
+      <br> </br>
+      <label for="correo">Correo electrónico:</label>
+      <input
+        type="email"
+        id="correo"
+        name="correo"
+        placeholder="Correo electrónico"
+        required
+      /><br /><br />
+      
+      <label>Género:</label><br />
+      <input type="radio" id="Masculino" name="genero" value="Masculino" required />
+      <label for="Masculino">Masculino</label><br />
+      <input type="radio" id="Femenino" name="genero" value="Femenino" required />
+      <label for="Femenino">Femenino</label><br>
+      <input type="radio" id="X" name="genero" value="X" required />
+      <label for="X">X</label><br /><br />
+
+      <label for="color">Color de piel:</label>
+      <input type="color" id="color" name="color" /><br /><br />
+
+      <label for="tipo_moneda">Tipo de moneda a solicitar:</label>
+      <select id="tipo_moneda" name="tipo_moneda" required>
+        <option value="" disabled selected>Selecciona un tipo</option>
+        <option value="pesos">Pesos</option>
+        <option value="dolares">Dolares</option>
+        <option value="euros">Euros</option>
+        <option value="reales">Reales</option></select
+      ><br /><br />
+
+      <input
+        type="checkbox"
+        id="bases_y_condiciones"
+        name="bases_y_condiciones"
+        value="acepta"
+        required
+      />
+      <label for="bases_y_condiciones">Acepto las bases y condiciones</label
+      ><br /><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

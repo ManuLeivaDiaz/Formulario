@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-image: url(./euro_53886_0_600.jpg);
+}
+h1 {
+    text-align: center;
+    color: black;
+    line-height: 100px;
+    text-shadow: 4px 2px 2px #008000;
+}
+p {
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: #c4f8cc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
+}
+body {
+    background-color: #b3e9c7;
+}
+form {
+    padding-top: 5%;
+    text-align: center;
+    line-height: 20px;
+    background-color: #138a36;
+    font-size: 15px;
+}
